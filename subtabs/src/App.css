@@ -1,0 +1,421 @@
+.active
+{
+  display: block;
+}
+.hide
+{
+  display: none;
+}
+.activetab
+{
+  color:red !important;
+}
+.activetab:hover
+{
+  background-color: black;
+  color:white !important;
+}
+.activetab:active
+{
+  background-color: black;
+  color:white !important;
+}
+#newli
+{
+  color:green;
+  font-size:20px;  
+  font-weight:bold;
+}
+#newli:hover
+{
+  background-color: black;
+  color:white;
+}
+#top 
+{
+  background-color: #f7f380 !important;
+}
+#top p
+{
+   padding: 1% 0 0 4% ;
+}
+#pull
+{
+  float: left;
+}
+#select
+{
+  font-size: 15px !important;
+} 
+#secondnav
+{
+   position: fixed;
+   margin-top: 50px;
+   padding-left: 6%;
+   padding-right: 16%;
+   width:100%;
+   font-size: 24px;
+   z-index: 2;
+}
+#list
+{ 
+   display:inline-block;
+   font-size: 20px;
+   font-weight: bold;
+}
+#list a
+{
+   padding:5px;
+}
+#list :hover
+{
+   background-color: black;
+   text-decoration: none;
+}
+#list :active
+{
+  background-color:black !important;
+  color:white;
+}
+#hovers
+{
+  z-index:1 !important;
+  background-color: #353738;
+  color:white;
+  position: absolute;
+  top: 14%;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 200px;
+}
+#hovers span 
+{
+  line-height: 1.3;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:white !important;
+}
+#hovers p 
+{
+  line-height: 0.7;
+  cursor: pointer;
+  font-size: 15px;
+  color:white !important;
+}
+#hovers p:hover,#hovers span:hover
+{
+  text-decoration: underline;
+}
+#brands
+{
+  z-index:1 !important;
+  background-color: #353738;
+  color:white;
+  position: absolute;
+  top: 14%;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 100px;
+}
+#brands p
+{
+  cursor:pointer;
+  line-height: 0.7;
+}
+#brands span
+{
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+}
+#brands p:hover
+{
+  text-decoration: underline;
+}
+#brands span:hover
+{
+  text-decoration: underline;
+}
+.col-lg
+{
+  width:30%;
+  top:10% !important;
+}
+#men
+{
+  z-index:1 !important;
+  background-color: #353738;
+  color:white;
+  position: absolute;
+  top: 14%;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 200px;  
+}
+#men p
+{
+  cursor: pointer;
+  line-height: 1;
+}
+#men span
+{
+  cursor:pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+#men span:hover
+{
+  text-decoration: underline;
+}
+#men p:hover
+{
+  text-decoration: underline;
+}
+#women
+{
+  z-index:1 !important;
+  background-color: #353738;
+  color:white;
+  position: absolute;
+  top: 14%;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 200px;  
+}
+#women span
+{
+  cursor: pointer;
+  font-weight:bold;
+  font-size: 20px;
+}
+#women span:hover
+{
+  text-decoration: underline;
+}
+#women p
+{
+  cursor: pointer;
+  line-height: 0.7;
+}
+#women p:hover
+{
+  text-decoration: underline;
+}
+#body
+{
+  margin-top: 10%;
+}
+#inputsearch
+{
+  margin-left: 10%;
+}
+#heading
+{
+  font-size: 35px;
+  line-height: 0.8;
+  font-weight:bold;  
+}
+#new
+{
+  font-size: 20px;
+  background: #42e596;
+  color:white;
+  padding:1%;
+  margin-right: 87% !important;
+}
+#last
+{
+  color:#b7bcb9;
+  font-size: 15px;
+  text-decoration: underline;
+}
+#last:hover
+{
+  cursor: pointer;
+  color:black;
+  text-decoration: none;
+}
+#img-circle
+{
+  border-radius: 2em !important;
+  border:3px solid black;
+}
+#small
+{
+   display:inline-block;
+   list-style-type: none;
+   z-index:5;
+   cursor:pointer;
+   padding-left: 0px;
+}
+#small li
+{
+  padding-left: 10% !important;
+}
+#smallimage
+{
+  margin-left: 50%;
+  margin-top: -10% !important;
+}
+#sublist
+{
+  cursor:pointer;
+  color: black !important;
+}
+#block
+{
+   background-color: black;
+   border:1px;
+   padding:15% !important;
+}
+#block th #number
+{
+  font-size: 25px;
+  color:white;
+  font-weight: bold;
+  padding: 10%;
+}
+#second
+{
+  margin: 2% !important; 
+  border-left:2px dotted white !important; 
+}
+#block th  #txt
+{
+  font-size: 15px;
+  color: white;
+  padding-left:25px;
+}
+#block th  select
+{
+  margin-left: 13%; 
+}
+ #third
+{
+  padding-left: 5%;
+  margin: 2% !important; 
+  border-left:2px dotted white !important;
+}
+#third #bt:hover
+{
+  background-color: #0a6691;
+}
+#panel
+{
+  position:relative;
+  border: 1px solid;
+  margin-right: -41%;
+  margin-bottom: 20%;
+  overflow:hidden; 
+  border-bottom-width: 0px;
+}
+.nav-tabs
+{
+  /*margin-right: 29.5%;*/
+  padding:0%;
+}
+.nav-tabs li
+{
+  padding:0;
+}
+#block button
+{
+  color:white;
+  background-color: #42f4ad;
+  margin-right: 13%;
+}
+#block2
+{
+  border:1px;
+  height:5%;
+  width:142%;
+}
+#size
+{
+  background-color: black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color:white;
+}
+#description
+{
+  padding-left: 2%;
+}
+#freeshipping
+{
+  padding-left: 2%;
+  padding-bottom: 20% !important;
+}
+#freeshipping p
+{
+  font-size: 12px;
+  margin-top: 3% !important;
+}
+#easyreturn
+{
+  padding-left: 2%;
+}
+#easyreturn p
+{
+  font-size: 12px;
+  margin-top: 3% !important;
+}
+#easyreturn ul li
+{
+  font-size: 12px;
+}
+#payment ul li
+{
+  font-size: 12px;
+  margin-top: 3%;
+  padding-left: 2%;
+  padding-bottom: 20% !important;
+}
+#btn
+{
+  margin-left: 20%;
+  margin-bottom: 10%;
+  background-color: #497c11 !important;
+  color:white;
+}
+#btn:hover
+{
+  color:white;
+  background-color: #9e160f !important;
+}
+#question
+{
+  font-size: 12px;
+  margin-top: 3%;
+  padding-left:2%;
+}
+#tumblr
+{
+  background-color:#1c4f77; 
+  color:white;
+}
+#follow
+{
+  background-color: black;
+  color:white;
+  border:none;
+}
+#pin
+{
+  color:red;
+}
+#scrolls
+{
+  overflow-x: scroll;
+  width:135% !important;
+  margin-top: 8%;
+  white-space: nowrap;
+  border:1px solid #b4b7ba;
+  border-bottom: none;
+}
+#buttons
+{
+  width:450px !important;
+}
